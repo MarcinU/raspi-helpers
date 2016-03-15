@@ -78,8 +78,8 @@ JasperLocal () {
 
 	echo "$(date) - Building cmuclmtk..." >> ~/jasper-installer.log
 	cd ~/cmuclmtk/
-	./autogen.sh
-	make -j2
+	sudo ./autogen.sh
+	sudo make -j2
 	sudo make install
 	echo "$(date) - Completed building and installing cmuclmtk..." >> ~/jasper-installer.log
 
