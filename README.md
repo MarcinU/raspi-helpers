@@ -17,7 +17,7 @@
 
 `sudo apt-get screen`
 
-Start scree
+Start screen
 
 `screen`
 
