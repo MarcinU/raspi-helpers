@@ -13,9 +13,21 @@
 
 `chmod +x jasper-installer.sh`
 
-##### Run the script and this can take several hours
+##### Install screen - as the script takes a loooooong time to finish
+
+`sudo apt-get screen`
+
+Start scree
+
+`screen`
+
+##### Run the script
 
 `~/jasper-installer.sh`
+
+You can reattach the session using:
+
+`screen -r`
 
 ##### Force audio to headphone jack ref: https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=40872
 
