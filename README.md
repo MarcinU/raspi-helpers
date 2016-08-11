@@ -5,7 +5,7 @@
 ##### Script to assist installing Jasper on Raspbian Lite
 ##### Tested on a fresh install of Jessie Raspbian Lite
 ##### Expand for raspbian to use entire disk with
-
+`raspi-config`
 ##### Upon reboot you could clone the repository or just download the script
 ##### Below is if you want to download the script
 
