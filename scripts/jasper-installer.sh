@@ -166,7 +166,7 @@ JasperTweaks () {
 
 	#echo "$(date) - Install crontab FIXME..." >> $log
 	## Install crontab
-	(crontab -u $USER -l; echo '@reboot $_dir/jasper/jasper.py') | sudo crontab -u $USER -
+	(crontab -u $USER -l; echo '@reboot ~/jasper/jasper.py') | sudo crontab -u $USER -
 }
 
 _STT="NETWORK"
