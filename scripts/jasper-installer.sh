@@ -164,9 +164,9 @@ JasperTweaks () {
 	#sudo sed -i.bak -e's/defaults.ctl.card 0/defaults.ctl.card 1/' /usr/share/alsa/alsa.conf
 	sudo sed -i.bak -e's/defaults.pcm.card 0/defaults.pcm.card 1/' /usr/share/alsa/alsa.conf
 
-	#echo "$(date) - Install crontab FIXME..." >> $log
+	echo "$(date) - Install crontab" >> $log
 	## Install crontab
-	(crontab -u $USER -l; echo '@reboot ~/jasper/jasper.py') | sudo crontab -u $USER -
+	(crontab -u $USER -l; echo "@reboot $_dir/jasper/jasper.py") | sudo crontab -u $USER -
 }
 
 _STT="NETWORK"
